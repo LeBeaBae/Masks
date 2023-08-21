@@ -4,7 +4,7 @@ var app = new function() {
         name: "16_hacker",
         color: "#000000",
         uniqsnd: !1
-    }];
+    }], this.bonusarray = [];
     for (var n = 0, o = this.animearray.length; n < o; n++) {
         var a = this.animearray[n].name;
         this.animearray[n].soundA = a + "_a", this.animearray[n].soundB = this.animearray[n].uniqsnd ? a + "_a" : a + "_b", this.animearray[n].anime = a + "-sprite.png", this.animearray[n].animeData = a + ".json";
