@@ -5,6 +5,10 @@ var app = new function() {
         color: "#000000",
         uniqsnd: !1
     },{
+        name: "7_neon",
+        color: "#000000",
+        uniqsnd: !1
+    },{
         name: "16_hacker",
         color: "#000000",
         uniqsnd: !1
