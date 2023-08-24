@@ -19,7 +19,7 @@ var app = new function() {
     },{
         name: "15_tiki",
         color: "#000000",
-        uniqsnd: !1
+        uniqsnd: !0
     },{
         name: "16_hacker",
         color: "#000000",
@@ -27,7 +27,7 @@ var app = new function() {
     },{
         name: "17_masks",
         color: "#000000",
-        uniqsnd: !1
+        uniqsnd: !0
     },{
         name: "18_robot",
         color: "#000000",
