@@ -13,7 +13,23 @@ var app = new function() {
         color: "#000000",
         uniqsnd: !1
     },{
+        name: "9_octopus",
+        color: "#000000",
+        uniqsnd: !1
+    },{
+        name: "15_tiki",
+        color: "#000000",
+        uniqsnd: !1
+    },{
         name: "16_hacker",
+        color: "#000000",
+        uniqsnd: !1
+    },{
+        name: "17_masks",
+        color: "#000000",
+        uniqsnd: !1
+    },{
+        name: "18_robot",
         color: "#000000",
         uniqsnd: !1
     }], this.bonusarray = [];
