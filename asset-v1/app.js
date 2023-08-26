@@ -35,11 +35,11 @@ var app = new function() {
     }, {
         name: "9_pulpito",
         color: "35b535",
-        uniqsnd: !0
+        uniqsnd: !1
     }, {
         name: "10_clown",
         color: "35b535",
-        uniqsnd: !1
+        uniqsnd: !0
     }, {
         name: "11_catrina",
         color: "cb2d3e",
