@@ -47,7 +47,7 @@ var app = new function() {
     }, {
         name: "12_bufon",
         color: "cb2d3e",
-        uniqsnd: !1
+        uniqsnd: !0
     }, {
         name: "13_chicken",
         color: "cb2d3e",
