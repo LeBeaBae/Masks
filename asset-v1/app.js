@@ -45,6 +45,10 @@ var app = new function() {
         color: "cb2d3e",
         uniqsnd: !1
     }, {
+        name: "12_bufon",
+        color: "cb2d3e",
+        uniqsnd: !1
+    }, {
         name: "13_chicken",
         color: "cb2d3e",
         uniqsnd: !1
