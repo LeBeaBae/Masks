@@ -33,7 +33,7 @@ var app = new function() {
         color: "35b535",
         uniqsnd: !1
     }, {
-        name: "9_octopus",
+        name: "9_pulpito",
         color: "35b535",
         uniqsnd: !0
     }, {
