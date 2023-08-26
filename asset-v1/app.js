@@ -59,7 +59,7 @@ var app = new function() {
     }, {
         name: "15_tiki",
         color: "cb2d3e",
-        uniqsnd: !1
+        uniqsnd: !0
     }, {
         name: "16_hacker",
         color: "005090",
