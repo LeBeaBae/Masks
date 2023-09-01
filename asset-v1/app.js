@@ -1,5 +1,5 @@
 var app = new function() {
-    this.name = "The Masks", this.version = "Mask", this.date = "2023", this.folder = "asset-v1/", this.looptime = 7388, this.bpm = 80, this.totalframe = 354, this.nbpolo = 7, this.nbloopbonus = 3, this.bonusloopA = !0, this.bonusendloopA = !0, this.recmaxloop = 68, this.recminloop = 4, this.recmintime = Math.round(this.looptime / 1e3) * this.recminloop, this.spritepolo = "polo-sprite.png", this.spritepolotshirt = "polo-sprite-tshirt.png", this.spritepicto = "game-picto.png", this.colBck = "#2a2100", this.col0 = "#d3a600", this.col1 = "#a18419", this.col2 = "#705d16", this.col3 = "#51430e", this.col4 = "#2e2608", this.animearray = [{
+    this.name = "The Masks", this.version = "1", this.date = "2023", this.folder = "asset-v1/", this.looptime = 7388, this.bpm = 80, this.totalframe = 354, this.nbpolo = 7, this.nbloopbonus = 3, this.bonusloopA = !0, this.bonusendloopA = !0, this.recmaxloop = 34, this.recminloop = 4, this.recmintime = Math.round(this.looptime / 1e3) * this.recminloop, this.spritepolo = "polo-sprite.png", this.spritepicto = "game-picto.png", this.colBck = "#2a2100", this.col0 = "#d3a600", this.col1 = "#a18419", this.col2 = "#705d16", this.col3 = "#51430e", this.col4 = "#2e2608", this.animearray = [{
         name: "1_demon",
         color: "ef0b0b",
         uniqsnd: !1
@@ -79,10 +79,9 @@ var app = new function() {
         name: "20_ghost",
         color: "000000",
         uniqsnd: !0
-    }], this.bonusarray = []
-};
-for (var n = 0, o = this.animearray.length; n < o; n++) {
-    var a = this.animearray[n].name;
-    this.animearray[n].soundA = a + "_a", this.animearray[n].soundB = this.animearray[n].uniqsnd ? a + "_a" : a + "_b", this.animearray[n].anime = a + "-sprite.png", this.animearray[n].animeData = a + ".json"
-}
+    }], this.bonusarray = [];
+    for (var n = 0, o = this.animearray.length; n < o; n++) {
+        var a = this.animearray[n].name;
+        this.animearray[n].soundA = a + "_a", this.animearray[n].soundB = this.animearray[n].uniqsnd ? a + "_a" : a + "_b", this.animearray[n].anime = a + "-sprite.png", this.animearray[n].animeData = a + ".json"
+    }
 };
