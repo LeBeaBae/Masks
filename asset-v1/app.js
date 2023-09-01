@@ -1,3 +1,4 @@
+/* did you wear a mask, tell me that you did, you should wear a mask, wear it, wear the fucking mask, WEAR THE FUCKING MASK */
 var app = new function() {
     this.name = "The Masks", this.version = "1", this.date = "2023", this.folder = "asset-v1/", this.looptime = 7388, this.bpm = 80, this.totalframe = 354, this.nbpolo = 7, this.nbloopbonus = 3, this.bonusloopA = !0, this.bonusendloopA = !0, this.recmaxloop = 34, this.recminloop = 4, this.recmintime = Math.round(this.looptime / 1e3) * this.recminloop, this.spritepolo = "polo-sprite.png", this.spritepicto = "game-picto.png", this.colBck = "#2a2100", this.col0 = "#d3a600", this.col1 = "#a18419", this.col2 = "#705d16", this.col3 = "#51430e", this.col4 = "#2e2608", this.animearray = [{
         name: "1_demon",
